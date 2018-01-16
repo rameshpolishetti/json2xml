@@ -44,9 +44,9 @@ func json2xml() {
 	if err != nil {
 		fmt.Println(err)
 	}
-	fmt.Println("==========")
-	fmt.Println("JSON value:")
-	fmt.Println("==========")
+	fmt.Println("===========")
+	fmt.Println("back to JSON:")
+	fmt.Println("===========")
 	fmt.Println(string(jsonValue2))
 
 }
